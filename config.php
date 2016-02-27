@@ -1,9 +1,9 @@
 <?php
 	// Insert countdown's end date in 'YYYY/mm/dd' (Year/Month/Day) format
-	$end_date = '2020/02/27';
+	$end_date = '2016/03/31';
 	
 	// Insert countdown's end time in 'HH:ii:ss' (Hour:Minute:Second) format
-	$end_time = '00:00:00';
+	$end_time = '23:59:59';
 	
 	// Insert color theme of page. Valid values are: 'blue' , 'green' , 'orange' , 'purple' , 'red'
 	$theme_color = 'green';
