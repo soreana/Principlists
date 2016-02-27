@@ -1,0 +1,21 @@
+body{
+	background:url(../../images/orange/body_background.jpg) center top #18181a;
+}
+div.main_container div.divider{
+	background:url(../../images/orange/divider.png) center top no-repeat;
+}
+div.main_container div.subscribe_container div.subscribe button{
+	border:1px solid #e38144;
+	background-image:linear-gradient(#cf6730, #c7581d);
+	background-color:#c7581d;
+}
+div.main_container div.subscribe_container div.subscribe button:hover{
+	border:1px solid #f0924d;
+	background-image:linear-gradient(#e17536, #db6421);
+	background-color:#db6421;
+}
+div.main_container div.subscribe_container div.subscribe button.disabled{
+	border:1px solid #e38144;
+	background-image:linear-gradient(#cf6730, #c7581d);
+	background-color:#c7581d;
+}

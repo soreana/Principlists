@@ -1,0 +1,21 @@
+body{
+	background:url(../../images/purple/body_background.jpg) center top #18181a;
+}
+div.main_container div.divider{
+	background:url(../../images/purple/divider.png) center top no-repeat;
+}
+div.main_container div.subscribe_container div.subscribe button{
+	border:1px solid #b651d8;
+	background-image:linear-gradient(#9d3dc4, #912abb);
+	background-color:#912abb;
+}
+div.main_container div.subscribe_container div.subscribe button:hover{
+	border:1px solid #cb5ce9;
+	background-image:linear-gradient(#b145d8, #a430d0);
+	background-color:#a430d0;
+}
+div.main_container div.subscribe_container div.subscribe button.disabled{
+	border:1px solid #b651d8;
+	background-image:linear-gradient(#9d3dc4, #912abb);
+	background-color:#912abb;
+}
