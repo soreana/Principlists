@@ -12,7 +12,7 @@
 	$top_text = 'اصولگرایان را برای تسلی خاطر به آغوش می‌کشیم';
 	
 	// Insert the bottom text of page
-	$bottom_text = 'ایمیل خود را برای بقل شدن وارد کنید';
+	$bottom_text = 'ایمیل خود را برای بغل شدن وارد کنید';
 	
 	// Insert page font name. Valid values are: 'yekan' , 'dastkhat'
 	$font = 'yekan';
