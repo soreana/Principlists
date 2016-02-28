@@ -19,6 +19,7 @@
 		$myfile = fopen("../Emails.txt", "a") or die("error");
 		fwrite($myfile, $email.PHP_EOL);
 		fclose($myfile);
+		syslog(LOG_INFO, "Email is: " + $email.PHP_EOL);
 		die('success');
 	}
 	
