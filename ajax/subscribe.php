@@ -3,7 +3,7 @@
 	if( isset($_POST['email']) && !empty($_POST['email']) ){
 		
 		$email = $_POST['email'];
-		error_log( "Email is:" + (string) $email);
+		error_log( "Email is:" . (string)$email);
 		
 		if( !filter_var($email, FILTER_VALIDATE_EMAIL) ){
 			die('error');
