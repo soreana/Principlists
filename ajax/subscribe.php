@@ -20,6 +20,9 @@
 		$myfile = fopen("../Emails.txt", "a") or die("error");
 		fwrite($myfile, $email.PHP_EOL);
 		fclose($myfile);
+		$myfile = fopen("../Emails.txt", "r") or die("error");
+		error_log(fread($myfile,filesize("../Emails.txt")));
+		fclose($myfile);
 		die('success');
 	}
 	
